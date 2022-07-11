@@ -16,17 +16,17 @@ namespace SleepApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class SleepController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<SleepController> _logger;
         private static Timer _timer;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public SleepController(ILogger<SleepController> logger)
         {
             _logger = logger;
         }
@@ -55,34 +55,6 @@ namespace SleepApi.Controllers
             return (Message.Length == 0);
         }
 
-        public List<String> serverTest()
-        {
-            List<String> response = new List<string>();
-            Ping x = new Ping();
-            PingReply reply = x.Send(IPAddress.Parse("20.106.201.151"));
-
-            response.Add(reply.Status.ToString());
-            return response;
-        }
-        public String pingServer()
-        {
-            var startInfo = new ProcessStartInfo(@"cmd.exe", "/c ping -n 8 20.106.201.151")
-            {
-                CreateNoWindow = true,
-                UseShellExecute = false,
-                RedirectStandardOutput = true
-            };
-
-            var pingProc = new Process { StartInfo = startInfo };
-            pingProc.Start();
-
-            pingProc.WaitForExit();
-
-            var result = pingProc.StandardOutput.ReadToEnd();
-            
-            return result;
-        }
-        
         [HttpGet]
         public List<String> Get()
         {

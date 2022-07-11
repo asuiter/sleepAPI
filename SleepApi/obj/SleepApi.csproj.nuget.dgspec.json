@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\SleepApi\\SleepApi.csproj": {}
+    "C:\\Dev\\Repos\\sleepAPI\\SleepApi\\SleepApi.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\SleepApi\\SleepApi.csproj": {
+    "C:\\Dev\\Repos\\sleepAPI\\SleepApi\\SleepApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\SleepApi\\SleepApi.csproj",
+        "projectUniqueName": "C:\\Dev\\Repos\\sleepAPI\\SleepApi\\SleepApi.csproj",
         "projectName": "SleepApi",
-        "projectPath": "C:\\Dev\\SleepApi\\SleepApi.csproj",
+        "projectPath": "C:\\Dev\\Repos\\sleepAPI\\SleepApi\\SleepApi.csproj",
         "packagesPath": "C:\\Users\\austinsuiter\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\SleepApi\\obj\\",
+        "outputPath": "C:\\Dev\\Repos\\sleepAPI\\SleepApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YrxCtu2C/lp737iuP588GeAm3xQEUV8+81D51QH/czJ45q7NZ6fPfsJcZ5WF4X8AOOyWIBvHd5TRuNO1Dpk4/g==",
+  "dgSpecHash": "V0veKJohOo+PuSR4muci0Tzb1ORTHu48MRuWOd7/xSWjk1S5S/njV5eot/u5VEzTq3ZP2CIz9b9KLxi0lz85Bw==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\SleepApi\\SleepApi.csproj",
+  "projectFilePath": "C:\\Dev\\Repos\\sleepAPI\\SleepApi\\SleepApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\austinsuiter\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\austinsuiter\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
